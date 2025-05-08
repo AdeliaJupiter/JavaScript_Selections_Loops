@@ -43,10 +43,10 @@ In this exercise, you will count from iterate from 1 to n. If you iterate over a
 
 ```js
 let value = Math.round((Math.random() * 500)); // creates a random number between 0 and 500
-let n = Math.round(Math.random() * (500 - 100) + 100); // creates a random number between 100 and 500
+let f = Math.round(Math.random() * (500 - 100) + 100); // creates a random number between 100 and 500
 ```
 
-2. Create a `for` loop that iterates from 0 to n
+2. Create a `for` loop that iterates from 0 to f
 3. If your current iteration is equal to `value`, then print "Found value!", and `break` out of the loop
 4. If you do not ever find the value and break out of the loop, then after the loop is finished, print "Did not find value"
 
@@ -59,11 +59,11 @@ We already completed the FIZZBUZZ challenge. Now repeat the logic for the FIZZBU
 ```js
 let fizzDivisor = Math.round(Math.random() * (10 - 1) + 1);
 let buzzDivisor = Math.round(Math.random() * (10 - 1) + 1);
-let n = Math.round(Math.random() * (1000 - 1) + 1);
+let g = Math.round(Math.random() * (1000 - 1) + 1);
 let start = Math.round(Math.random() * (10 - 1) + 1);
 ```
 
-2. Re-implement exercise 2, but use `start` as the initial value for `i`, `n` as the range limit in `i <= n`, and `fizzDivisor` and `buzzDivisor` as the dependent values for determining "FIZZ" and "BUZZ" print messages.
+2. Re-implement exercise 2, but use `start` as the initial value for `i`, `g` as the range limit in `i <= g`, and `fizzDivisor` and `buzzDivisor` as the dependent values for determining "FIZZ" and "BUZZ" print messages.
 
 ---
 
